@@ -1,0 +1,72 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; *behavior: url(boxsizing.htc); }
+
+@font-face {
+    font-family: 'DanielRegular';
+    src: url('../assets/fonts/Daniel/daniel-webfont.eot');
+    src: url('../assets/fonts/Daniel/daniel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/Daniel/daniel-webfont.woff') format('woff'),
+         url('../assets/fonts/Daniel/daniel-webfont.ttf') format('truetype'),
+         url('../assets/fonts/Daniel/daniel-webfont.svg#DanielRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mplus-1c-regular';
+    src: url('../assets/fonts/mplus-1c/mplus-1c-regular-webfont.eot');
+    src: url('../assets/fonts/mplus-1c/mplus-1c-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/mplus-1c/mplus-1c-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/mplus-1c/mplus-1c-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/mplus-1c/mplus-1c-regular-webfont.svg#mplus-1c-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mplus-1c-light';
+    src: url('../assets/fonts/mplus-1c/mplus-1c-light-webfont.eot');
+    src: url('../assets/fonts/mplus-1c/mplus-1c-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/mplus-1c/mplus-1c-light-webfont.woff') format('woff'),
+         url('../assets/fonts/mplus-1c/mplus-1c-light-webfont.ttf') format('truetype'),
+         url('../assets/fonts/mplus-1c/mplus-1c-light-webfont.svg#mplus-1c-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'DanielRegular';
+    font-size: 42px; font-size: 4.2rem; margin-bottom: 12px;
+    margin: 20px 0;
+    text-align: right;
+}
+
+.title {
+    color: #fff;
+    font-family: 'mplus-1c-light';
+    font-size: 28px; font-size: 2.8rem;
+    margin-bottom: 9px;
+}
+
+.subtitle {
+    color: #fff;
+    font-family: 'mplus-1c-regular';
+    font-size: 15px; font-size: 1.5rem;
+    font-weight: normal;
+    /*margin-bottom: 12px;*/
+}
+
+.contact-list {
+    text-align: right;    
+}
+
+.icon-link {
+    vertical-align: middle;
+}
+
+.whitespace {
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
