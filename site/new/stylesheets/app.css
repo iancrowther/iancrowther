@@ -36,7 +36,7 @@
     color: #fff;
     font-family: 'DanielRegular';
     font-size: 42px; font-size: 4.2rem; margin-bottom: 12px;
-    margin: 20px 0;
+    margin: 40px 0;
     text-align: right;
 }
 
@@ -44,7 +44,7 @@
     color: #fff;
     font-family: 'mplus-1c-light';
     font-size: 28px; font-size: 2.8rem;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
 }
 
 .subtitle {
@@ -52,10 +52,10 @@
     font-family: 'mplus-1c-regular';
     font-size: 15px; font-size: 1.5rem;
     font-weight: normal;
-    /*margin-bottom: 12px;*/
+    margin-bottom: 5px;
 }
 
-.contact-list {
+.details {
     text-align: right;    
 }
 
@@ -63,8 +63,11 @@
     vertical-align: middle;
 }
 
+a:hover.orbit-link, a:focus.orbit-link, a:active.orbit-link {
+    color: #888; text-decoration: underline;
+}
 .whitespace {
-    margin: 10px 0;
+    margin-top: 30px;
 }
 
 .hidden {
