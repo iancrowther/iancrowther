@@ -40,6 +40,22 @@
     text-align: right;
 }
 
+.logo a, .logo a:hover, .logo a:active, .logo a:visited {
+    color: #fff;
+}
+
+/* Heading */
+
+.heading {
+    position:relative;
+}
+
+#g-plusone {
+    position:absolute;
+    top:42px;
+    left:340px;
+}
+
 .title {
     color: #fff;
     font-family: "mplus-1c-light";
@@ -47,8 +63,17 @@
     margin-bottom: 10px;
 }
 
-.subtitle, .other-things {
+.subtitle {
     color: #fff;
+    font-family: "mplus-1c-regular";
+    font-size: 15px; font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+/* Details */
+
+.contact .link-text {
     font-family: "mplus-1c-regular";
     font-size: 15px; font-size: 1.5rem;
     font-weight: normal;
@@ -59,13 +84,48 @@
     text-align: right;    
 }
 
-.icon-link {
-    vertical-align: middle;
-}
+/* ORBIT */
 
 a:hover.orbit-link, a:focus.orbit-link, a:active.orbit-link {
     color: #888; text-decoration: underline;
 }
+
+/* Footer */ 
+
+footer {
+    text-align: center;
+}
+
+.footer-text {
+    margin: 50px 0 5px 0;
+    color: #888;
+    font-family: "mplus-1c-light";
+    font-size: 12px; font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+footer li {
+    display: inline;
+}
+
+a.footer-icon {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    opacity: .7;
+}
+a:hover.footer-icon, a:focus.footer-icon, a:active.footer-icon {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+/* General */
+
+.link-icon {
+    vertical-align: middle;
+}
+
 .whitespace {
     margin-top: 30px;
 }

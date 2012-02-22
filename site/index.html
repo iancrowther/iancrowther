@@ -15,32 +15,34 @@
 	<meta name="author" content="Ian Crowther" />
 	<meta name="keywords" content="Ian Crowther, Frontend Developer, Javascript Developer, Web Developer, Web Apps Developer, User Experience Design, Responsive Web Design, JQuery, Javascript, DOM Scripting, Ajax, HTML, HTML5, CSS, CSS3, iancrowther" />
 	
+	<link rel="canonical" href="http://iancrowther.co.uk/" />
 	<link rel="shortcut icon" href="images/icons/favicon.ico" />
 	<link rel="apple-touch-icon" href="images/apple/apple-touch-icon-iphone.png" /> 
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple/apple-touch-icon-ipad.png" /> 
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple/apple-touch-icon-iphone4.png" />
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="profile" href="http://microformats.org/profile/hcard" />
 	
 	<link rel="stylesheet" href="stylesheets/foundation.css" type="text/css">
 	<link rel="stylesheet" href="stylesheets/app.css" type="text/css">
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="stylesheets/ie.css" type="text/css">
 	<![endif]-->
-
+	
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-<body>
-	<!-- ClickTale Top part -->
+<body class="vcard">
 	<script type="text/javascript">
 		var WRInitTime=(new Date()).getTime();
 	</script>
-	
 	<div class="container">
 		<header>
 			<section class="row">
 				<div class="twelve columns">
-					<h1 class="logo">iancrowther.co.uk</h1>
+					<h1 class="logo"><a class="url org" href="http://iancrowther.co.uk" rel="home">iancrowther.co.uk</a></h1>
 				</div>
 			</section>
 		</header>
@@ -50,7 +52,8 @@
 					<section class="row">
 						<div class="twelve columns heading">
 							<h1 class="title">Freelance Frontend Developer</h1>
-							<h2 class="subtitle">Availabile: August 2012, London, England</h2>						
+							<h2 class="subtitle adr">Availabile: August 2012, <span class="locality">London</span>, <span class="country-name">England</span></h2>
+							<div id="g-plusone"></div>
 						</div>
 					</section>
 					<section class="row">
@@ -67,8 +70,8 @@
 								<img src="images/portfolio/drumtuition.png" alt="Bill Collis - Drum Tuition" data-caption="#drumtuition" />
 								<img src="images/portfolio/porchester.png"  alt="Porchester Dental Pactice" data-caption="#porchester"/>
 							</div>
-							<span class="orbit-caption" id="drumtuition"><a class="orbit-link" href="http://drumtuition.biz">http://drumtuition.biz</a></span>
-							<span class="orbit-caption" id="porchester"><a class="orbit-link" href="http://porchesterdental.com">http://porchesterdental.com</a></span>
+							<span class="orbit-caption" id="drumtuition"><a class="orbit-link" href="http://drumtuition.biz" rel="contact">http://drumtuition.biz</a></span>
+							<span class="orbit-caption" id="porchester"><a class="orbit-link" href="http://porchesterdental.com" rel="contact">http://porchesterdental.com</a></span>
 						</div>
 					</section>
 				</div>
@@ -76,10 +79,11 @@
 					<section class="row">
 						<div class="twelve columns contact">
 							<h3 class="subtitle">Contact</h3>
-							<ul class="contact-list">
-								<li><h3 class="subtitle"><a href="tel:02081440798">020 8144 0798 <img src="images/icons/phone.png" alt="" class="icon-link" /></a></h3></li>
-								<li><h3 class="subtitle"><a href="mailto:ian@iancrowther.co.uk">ian@iancrowther.co.uk <img src="images/icons/gmail.png" alt="" class="icon-link" /></a></h3></li>
-								<li><h3 class="subtitle"><a href="skype:iancrowther1?add">iancrowther1 <img src="images/icons/skype.png" alt="" class="icon-link" /></a></h3></li>
+							<ul>
+								<li><a href="tel:02081440798" class="tel link-text" rel="me">020 8144 0798 <img src="images/icons/phone.png" alt="" class="link-icon" /></a></li>
+								<li><a href="mailto:ian@iancrowther.co.uk" class="email link-text" rel="me">ian@iancrowther.co.uk <img src="images/icons/gmail.png" alt="" class="link-icon" /></a></li>
+								<li><a href="skype:iancrowther1?add" class="link-text" rel="me">iancrowther1 <img src="images/icons/skype.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://iancrowther.co.uk/assets/vcard/Ian-Crowther.vcf" class="link-text" rel="me">vCard <img src="images/icons/vcard.png" alt="" class="link-icon" /></a></li>
 							</ul>
 						</div>
 					</section>
@@ -87,11 +91,11 @@
 						<div class="twelve columns professional whitespace">
 							<h3 class="subtitle">Professional</h3>
 							<ul>
-								<li><a href="http://www.linkedin.com/in/iancrowther">Linkedin <img src="images/icons/linkedin.png" alt="" class="icon-link" /></a></li>
-								<li><a href="https://github.com/iancrowther">Github <img src="images/icons/github.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://stackoverflow.com/users/548981/iancrowther">Stackoverflow <img src="images/icons/stackoverflow.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://jsfiddle.net/user/iancrowther/">jsfiddle <img src="images/icons/jsfiddle.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://slideshare.net/iancrowther">Slideshare <img src="images/icons/slideshare.png" alt="" class="icon-link" /></a></li>
+								<li><a href="http://www.linkedin.com/in/iancrowther" rel="me">Linkedin <img src="images/icons/linkedin.png" alt="" class="link-icon" /></a></li>
+								<li><a href="https://github.com/iancrowther" rel="me">Github <img src="images/icons/github.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://stackoverflow.com/users/548981/iancrowther" rel="me">Stackoverflow <img src="images/icons/stackoverflow.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://jsfiddle.net/user/iancrowther/" rel="me">jsfiddle <img src="images/icons/jsfiddle.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://slideshare.net/iancrowther" rel="me">Slideshare <img src="images/icons/slideshare.png" alt="" class="link-icon" /></a></li>
 							</ul>
 						</div>
 					</section>
@@ -99,28 +103,63 @@
 						<div class="twelve columns social whitespace">
 							<h3 class="subtitle">Social</h3>
 							<ul>
-								<li><a href="http://twitter.com/iancrowther">Twitter <img src="images/icons/twitter.png" alt="" class="icon-link" /></a></li>
-								<li><a href="https://plus.google.com/u/0/104930867373525000631">Google+ <img src="images/icons/google-plus.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://www.facebook.com/ianfcrowther">Facebook <img src="images/icons/facebook.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://www.google.com/reader/shared/02227762350607711900">Google Reader <img src="images/icons/rss.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://www.youtube.com/user/maxlee7">YouTube <img src="images/icons/youtube.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://open.spotify.com/user/iancrowther">Spotify <img src="images/icons/spotify.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://grooveshark.com/iancrowther">Grooveshark <img src="images/icons/grooveshark.png" alt="" class="icon-link" /></a></li>
-								<li><a href="https://picasaweb.google.com/104930867373525000631">Picasa <img src="images/icons/picasa.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://www.flickr.com/photos/iancrowther/">Flickr <img src="images/icons/flickr.png" alt="" class="icon-link" /></a></li>
-								<li><a href="http://www.amazon.co.uk/registry/wishlist/19884W0YYGP7C">Amazon <img src="images/icons/amazon.png" alt="" class="icon-link" /></a></li>
+								<li><a href="http://twitter.com/iancrowther" rel="me">Twitter <img src="images/icons/twitter.png" alt="" class="link-icon" /></a></li>
+								<li><a href="https://plus.google.com/104930867373525000631?rel=author" rel="me publisher">Google+ <img src="images/icons/google-plus.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://www.facebook.com/ianfcrowther" rel="me">Facebook <img src="images/icons/facebook.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://www.google.com/reader/shared/02227762350607711900" rel="me">Google Reader <img src="images/icons/rss.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://www.youtube.com/user/maxlee7" rel="me">YouTube <img src="images/icons/youtube.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://open.spotify.com/user/iancrowther" rel="me">Spotify <img src="images/icons/spotify.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://grooveshark.com/iancrowther" rel="me">Grooveshark <img src="images/icons/grooveshark.png" alt="" class="link-icon" /></a></li>
+								<li><a href="https://picasaweb.google.com/104930867373525000631" rel="me">Picasa <img src="images/icons/picasa.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://www.flickr.com/photos/iancrowther/" rel="me">Flickr <img src="images/icons/flickr.png" alt="" class="link-icon" /></a></li>
+								<li><a href="http://www.amazon.co.uk/registry/wishlist/19884W0YYGP7C" rel="me">Amazon <img src="images/icons/amazon.png" alt="" class="link-icon" /></a></li>
 							</ul>
 						</div>
 					</section>
 				</div>
 			</section>
 		</div>
-	</div>		
-	
+		<footer>
+			<section class="row">
+				<div class="twelve columns centered">
+					<h4 class="footer-text">Created by <a href="http://iancrowther.co.uk" class="fn" rel="me author">Ian Crowther</a> using the <a href="http://foundation.zurb.com/" rel="nofollow">Zurb Foundation</a>, <a href="http://www.html5rocks.com/en/" rel="nofollow">HTML5</a>, <a href="http://www.w3.org/Style/CSS/" rel="tag nofollow">CSS3</a></h4>
+				</div>
+			</section>
+			<section class="row">
+				<div class="twelve columns centered">
+					<ul>
+						<li><a href="https://www.google.com/chrome/" class="footer-icon" rel="tag nofollow"><img src="images/icons/chrome.png" alt="" /></a></li>
+						<li><a href="http://www.mozilla.org/en-US/firefox/new/" class="footer-icon" rel="tag nofollow"><img src="images/icons/firefox.png" alt="" /></a></li>
+						<li><a href="http://www.apple.com/safari/" class="footer-icon" rel="tag nofollow"><img src="images/icons/safari.png" alt="" /></a></li>
+						<li><a href="http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home" class="footer-icon" rel="tag nofollow"><img src="images/icons/ie.png" alt="" /></a></li>
+						<li><a href="http://www.opera.com/" class="footer-icon" rel="nofollow"><img src="images/icons/opera.png" alt="" /></a></li>
+					</ul>	
+				</div>
+			</section>
+			
+		</footer>
+	</div>
 	<script src="javascripts/jquery.min.js"></script>
 	<script src="javascripts/modernizr.foundation.js"></script>
 	<script src="javascripts/foundation.js"></script>
 	<script src="javascripts/app.js"></script>
+	
+	<!-- Google+ Button -->
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+		{ "parsetags": "explicit" }
+	</script>
+    <script type="text/javascript">
+	  function renderPlusone() {
+		    gapi.plusone.render("g-plusone", {
+				"href": "http://iancrowther.co.uk/",
+				"size": "medium",
+				"align": "left"
+			});
+		}
+	  renderPlusone();
+    </script>
+	
+	<!-- Google Analytics -->
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-2845245-6']);
@@ -137,7 +176,6 @@
 		var userflyHost = (("https:" == document.location.protocol) ? "https://secure.userfly.com" : "http://asset.userfly.com");
 		document.write(unescape("%3Cscript src='" + userflyHost + "/users/33051/userfly.js' type='text/javascript'%3E%3C/script%3E"));
 	</script>
-	<!-- ClickTale Bottom part -->
 	<div id="ClickTaleDiv" style="display: none;"></div>
 	<script type="text/javascript">
 		if(document.location.protocol!='https:')
@@ -146,6 +184,5 @@
 	<script type="text/javascript">
 		if(typeof ClickTale=='function') ClickTale(48566,1,"www");
 	</script>
-	<!-- ClickTale end of Bottom part -->
 </body>
 </html>
