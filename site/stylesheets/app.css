@@ -72,12 +72,6 @@
     margin-bottom: 5px;
 }
 
-/* Details */
-
-.details {
-    text-align: right;    
-}
-
 .contact-link-text {
     font-family: "mplus-1c-regular";
     font-size: 15px; font-size: 1.5rem;
@@ -166,8 +160,4 @@ footer li {
 
 .whitespace {
     margin-top: 30px;
-}
-
-.hidden {
-    display: none;
 }
