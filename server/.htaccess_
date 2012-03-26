@@ -19,6 +19,8 @@
 
 <IfModule mod_headers.c>
   Header set X-UA-Compatible "IE=Edge,chrome=1"
+  BrowserMatch chromeframe gcf
+  Header append X-UA-Compatible "chrome=1" env=gcf
   # mod_headers can't match by content-type, but we don't want to send this header on *everything*...
   <FilesMatch "\.(js|css|gif|png|jpe?g|pdf|xml|oga|ogg|m4a|ogv|mp4|m4v|webm|svg|svgz|eot|ttf|otf|woff|ico|webp|appcache|manifest|htc|crx|oex|xpi|safariextz|vcf)$" >
     Header unset X-UA-Compatible
@@ -208,7 +210,6 @@ AddType text/x-vcard                        vcf
 
 # CSS and JavaScript
   ExpiresByType text/css                  "access plus 1 year"
-  ExpiresByType text/javascript           "access plus 1 year"
   ExpiresByType application/javascript    "access plus 1 year"
 
 </IfModule>
