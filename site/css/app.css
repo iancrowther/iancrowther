@@ -98,7 +98,7 @@ footer li {
 .footer-text {
 	margin: 50px 0 5px 0;
 	color: #888;
-	font-family: "mplus-1c-light";
+	font-family: "mplus-1c-regular";
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: normal;
@@ -110,9 +110,9 @@ footer li {
 	height: 16px;
 	width: 16px;
 	display: inline-block;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-	filter: alpha(opacity=70);
-	opacity: .7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: .8;
 }
 
 .footer-icon:hover,.footer-icon:focus,.footer-icon:active {
