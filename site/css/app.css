@@ -232,5 +232,17 @@ footer li {
 
 /* General */
 .whitespace {
+	margin-top: 20px;
+}
+
+.about {
+	margin-top: 40px;
+}
+
+.carousel {
 	margin-top: 30px;
+}
+
+.resume {
+	margin-top: 50px;	
 }

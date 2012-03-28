@@ -10,10 +10,10 @@ $(document).ready(function () {
 //	$('.block-grid.four-up>li:nth-child(4n+1)').css({clear: 'left'});
 //	$('.block-grid.five-up>li:nth-child(5n+1)').css({clear: 'left'});
 
-	$('#portfolio').orbit({
-		captions: true, 			 		// do you want captions?
-		captionAnimation: 'fade', 		 	// fade, slideOpen, none
-		captionAnimationSpeed: 800, 	 	// if so how quickly should they animate in
-		fluid: true                         // or set a aspect ratio for content slides (ex: '4x3') 
-	});
+	//$('#portfolio').orbit({
+		//captions: true, 			 		// do you want captions?
+		//captionAnimation: 'fade', 		 	// fade, slideOpen, none
+		//captionAnimationSpeed: 800, 	 	// if so how quickly should they animate in
+	//	fluid: true                         // or set a aspect ratio for content slides (ex: '4x3') 
+	//});
 });
