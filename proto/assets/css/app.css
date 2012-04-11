@@ -50,8 +50,9 @@ a {
     color: inherit;
 }
 
-a:hover {
+a:hover, a:active, a:focus {
   color: #ffffff;
+  outline: none;
 }
 
 ul.unstyled {
@@ -67,8 +68,16 @@ ul.unstyled {
     text-align: justify;
 }
 
+/*Carousel*/
+
 .carousel-control {
+    background: #333;
     line-height: 35px;
+    opacity: 1;
+}
+
+.carousel-caption {
+    background: #333;    
 }
 
 /*Grid*/
@@ -100,6 +109,15 @@ ul.unstyled {
     margin-top: 20px;
 }
 
+.navbar .nav > li > a:active,
+.navbar .nav > li > a:focus {
+    color: #ffffff;    
+}
+
+.navbar .nav .active > a {
+    color: inherit;
+}
+
 /*Footer*/
 footer {
     text-align: center;
@@ -120,7 +138,7 @@ footer li a {
 	opacity: .8;
 }
 
-footer li a:hover, footer li a:active {
+footer li a:hover, footer li a:active, footer li a:focus {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	opacity: 1;    

@@ -144,96 +144,96 @@ footer li {
 /* Links */
 .link-icon {
 	background: url("../img/icons/icons.png") no-repeat;
-	padding: 5px 30px 5px 0px;
+	padding: 5px 0px 5px 30px;
 	white-space: nowrap;
 	width: 200px;
 	display: inline-block;
 }
 
 .amazon {
-	background-position: 175px 0;
+	background-position: 0 0;
 }
 
 .delicious {
-	background-position: 175px -74px;
+	background-position: 0 -74px;
 }
 
 .facebook {
-	background-position: 175px -148px;
+	background-position: 0 -148px;
 }
 
 .flickr {
-	background-position: 175px -222px;
+	background-position: 0 -222px;
 }
 
 .github {
-	background-position: 175px -296px;
+	background-position: 0 -296px;
 }
 
 .gmail {
-	background-position: 175px -370px;
+	background-position: 0 -370px;
 }
 
 .google-plus {
-	background-position: 175px -444px;
+	background-position: 0 -444px;
 }
 
 .grooveshark {
-	background-position: 175px -518px;
+	background-position: 0 -518px;
 }
 
 .jsfiddle {
-	background-position: 175px -592px;
+	background-position: 0 -592px;
 }
 
 .linkedin {
-	background-position: 175px -666px;
+	background-position: 0 -666px;
 }
 
 .picasa {
-	background-position: 175px -814px;
+	background-position: 0 -814px;
 }
 
 .rss {
-	background-position: 175px -888px;
+	background-position: 0 -888px;
 }
 
 .skype {
-	background-position: 175px -962px;
+	background-position: 0 -962px;
 }
 
 .slideshare {
-	background-position: 175px -1036px;
+	background-position: 0 -1036px;
 }
 
 .spotify {
-	background-position: 175px -1110px;
+	background-position: 0 -1110px;
 }
 
 .stackoverflow {
-	background-position: 175px -1184px;
+	background-position: 0 -1184px;
 }
 
 .tel {
-	background-position: 175px -740px;
+	background-position: 0 -740px;
 }
 
 .twitter {
-	background-position: 175px -1258px;
+	background-position: 0 -1258px;
 }
 
 .vCard {
-	background-position: 175px -1332px;
+	background-position: 0 -1332px;
 }
 
 .youtube {
-	background-position: 175px -1406px;
+	background-position: 0 -1406px;
 }
 
 /* General */
-.whitespace {
+/*.whitespace {
 	margin-top: 20px;
-}
+}*/
 
 .about {
 	margin-top: 40px;
