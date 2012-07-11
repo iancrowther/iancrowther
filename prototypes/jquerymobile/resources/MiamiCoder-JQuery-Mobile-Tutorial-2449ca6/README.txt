@@ -1,1 +1,0 @@
-This is a JQuery Mobile Tutorial based on the code for a fictional event website.
