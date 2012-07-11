@@ -1,1 +1,0 @@
-$(document).ready(function(){$('input, textarea').placeholder();$('#portfolio').orbit({captions:true,captionAnimation:'fade',captionAnimationSpeed:800,fluid:true})});
