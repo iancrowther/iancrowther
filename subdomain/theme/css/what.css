@@ -1,0 +1,58 @@
+
+.service {
+  margin: 20px;
+  background: #f8f8f8;
+  border-bottom: 2px solid #9d426b;
+  display: block;
+  padding: 20px;
+}
+
+.service:hover {
+  text-decoration: none;
+  box-shadow:
+      0 5px 15px 0 rgba(0,0,0,.07),
+      0 1px 25px 0 rgba(0,0,0,.07) inset,
+      0 -1px 25px 0 rgba(0,0,0,.07) inset;
+  -o-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  -ms-transition: all .5s;
+}
+
+.service h4 {
+  margin-top: 5px;
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #5d5d5d;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+
+.service p {
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+
+.service .highlight {
+    padding: 5px 22px;
+    background: #9d426b;
+    color: #fff;
+    font-style: italic;
+    text-decoration: none;
+    -moz-box-shadow:
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    -webkit-box-shadow:
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+    box-shadow:
+        0 1px 25px 0 rgba(0,0,0,.05) inset,
+        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+}
+
+.service .highlight:hover {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: gray;
+}
