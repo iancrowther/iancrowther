@@ -1,0 +1,16 @@
+BEGIN:VCARD
+PRODID:-//suda.co.uk//X2V 0.12 (BETA)//EN
+SOURCE:http://iancrowther.co.uk
+NAME:Developer For Hire | Ian Crowther | Javascript - HTML - CSS 
+VERSION:3.0
+N;LANGUAGE=en;CHARSET=utf-8:Crowther;Ian;;;
+ORG;CHARSET=utf-8:iancrowther.co.uk
+FN;LANGUAGE=en;CHARSET=utf-8:Ian Crowther
+TITLE;LANGUAGE=en;CHARSET=utf-8:Freelance Frontend Developer
+URL:http://iancrowther.co.uk
+EMAIL:ian@iancrowther.co.uk
+ADR;LANGUAGE=en;CHARSET=utf-8:;;;London;;;England
+TEL:02081440798
+LOGO:iancrowther.co.uk
+END:VCARD
+
