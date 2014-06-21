@@ -1,0 +1,51 @@
+<!--#include virtual="/includes/doctype.html" -->
+<head>
+	<title>Page Not Found | Error 404</title>
+	<!--#include virtual="/includes/meta.html" -->
+	<meta name="description" content="Error 404 for iancrowther.co.uk" />
+	<meta name="keywords" content="Freelance Frontend Developer, Responsive Web Design" />
+	<!--#include virtual="/includes/apple.html" -->
+	<!--#include virtual="/includes/styles.html" -->
+</head>
+<body>
+	<div class="container">
+		<!--#include virtual="/includes/header.html" -->
+		<div class="content">
+			<section class="row">
+				<div class="six columns">
+                    <section class="row">
+                        <div class="twelve columns">
+                            <h1 class="title">Error 404 - Page Not Found</h1>
+                            <h2 class="subtitle">Sorry, but the page you were trying to view does not exist.</h2>
+							<!--#include virtual="/includes/test.html" -->
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="twelve columns whitespace">
+                            <h3 class="subtitle">Cause</h3>
+                            <p>It looks like this was the result of either:</p>
+                            <ul class="disc">
+                                <li>a mistyped address</li>
+                                <li>an out-of-date link</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="row">
+                        <div class="twelve columns whitespace">
+                            <script>
+                                var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),GOOG_FIXURL_SITE = location.host;
+                            </script>
+                            <script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
+                        </div>
+                    </section>
+                </div>
+                <div class="six columns push-two whitespace">
+                    <img id='error' src='img/404/404.gif' alt='Error 404 - Page Missing.'/>
+                </div>                
+            </section>
+        </div>
+		<!--#include virtual="/includes/footer.html" -->
+    </div>
+	<!--#include virtual="/includes/scripts.html" -->	
+</body>
+</html>

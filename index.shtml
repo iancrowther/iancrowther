@@ -1,47 +1,17 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<!--#include virtual="/includes/doctype.html" -->
 <head>
 	<title>Freelance Frontend Developer | Javascript - HTML - CSS</title>
-	
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" /> <!-- Mobile Devices -->
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"> <!-- Google Chrome Frame -->
-	<meta name="google-site-verification" content="_oZsFQB4MHqnQz1LI7EwilLGn0yK-i3yeZc8ePw5Nwg" /> <!-- Google webmaster tools verification -->
-	<meta name="author" content="Ian Crowther" />
-    
+	<!--#include virtual="/includes/meta.html" -->
 	<meta name="description" content="Frontend Development for iPhone, iPad, Android, Laptop, Desktop" />
-	<meta name="keywords" content="Freelance Frontend Developer, JQuery, Javascript, Ajax, HTML, HTML5, CSS, CSS3, iancrowther, Ian Crowther" />
-	
-	<link rel="canonical" href="http://iancrowther.co.uk/" />
-	<link rel="shortcut icon" href="img/icons/favicon.ico" />
-	<link rel="apple-touch-icon" href="img/apple/apple-touch-icon-iphone.png" /> 
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple/apple-touch-icon-ipad.png" /> 
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple/apple-touch-icon-iphone4.png" />
-	
+	<meta name="keywords" content="Freelance Frontend Developer, JQuery, Javascript, Ajax, HTML, HTML5, CSS, CSS3" />
+	<!--#include virtual="/includes/apple.html" -->
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="profile" href="http://microformats.org/profile/hcard" />
-	
-	<link rel="stylesheet" href="css/foundation-min.css" type="text/css">
-	<link rel="stylesheet" href="css/app.css" type="text/css">
-	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="css/ie-min.css" type="text/css">
-		<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<!--#include virtual="/includes/styles.html" -->
 </head>
 <body itemscope itemtype="http://schema.org/Organization" class="vcard">
 	<div class="container">
-		<header>
-			<section class="row">
-				<div class="twelve columns">
-					<h1 class="logo">
-                        <a class="url org logo-link" href="http://iancrowther.co.uk/" rel="home" tabindex="0" title="iancrowther.co.uk" itemprop="name" itemprop="url" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Logo']);">iancrowther.co.uk</a>
-                    </h1>
-				</div>
-			</section>
-		</header>
+		<!--#include virtual="/includes/header.html" -->
 		<div class="content">
 			<section class="row">
 				<div class="nine columns">
@@ -49,17 +19,16 @@
 						<div class="twelve columns heading">
 							<h1 class="title">Freelance Frontend Developer</h1>
 							<h2 class="subtitle adr">Availabile: July 2012, <span class="locality">London</span>, <span class="country-name">England</span></h2>
-							<div id="g-plusone" class="hide-on-print"></div>
 						</div>
 					</section>
 					<section class="row">
-						<div class="twelve columns mtm">
+						<div class="twelve columns about">
 							<h3 class="subtitle">About</h3>
 							<p>I am a web developer / architect and team leader available to hire for contract work. I work on the development of semantic web apps through the use of web standards. Using agile and UXD techniques, I create user centred designs which enable me to create web apps that are both accessible & usable.</p>
 						</div>
 					</section>
 					<section class="row">
-						<div class="ten columns mts hide-on-print">
+						<div class="ten columns carousel hide-on-print">
 							<h3 class="subtitle">Portfolio</h3>
 							<p>Please take some time to look at my previous work.</p>
 							<div id="portfolio"> 
@@ -71,7 +40,7 @@
 						</div>
 					</section>
 					<section class="row">
-						<div class="twelve columns mtl hide-on-print">
+						<div class="twelve columns resume hide-on-print">
 							<h3 class="subtitle">Resume</h3>
 							<li><a href="http://goo.gl/nZ7h4" class="" rel="me" title="Download Resume" tabindex="29" onclick="_gaq.push(['_trackEvent', 'Resume', 'Click', 'Download Resume']);">Download Resume</a></li>
 						</div>
@@ -121,102 +90,8 @@
 				</div>
 			</section>
 		</div>
-		<footer class="hide-on-print">
-			<section class="row">
-				<div class="twelve columns centered">
-					<h4 class="footer-text">Created by <a href="http://iancrowther.co.uk/" class="fn" rel="me author" title="iancrowther.co.uk" tabindex="20" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Author']);">Ian Crowther</a> using the <a href="http://foundation.zurb.com/" rel="nofollow" title="Zurb Foundation" tabindex="21" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Zurb']);">Zurb Foundation</a>, <a href="http://www.html5rocks.com/en/" rel="nofollow" title="HTML5 Rocks" tabindex="22" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'HTML5']);">HTML5</a>, <a href="http://www.w3.org/Style/CSS/" rel="tag nofollow" title="W3C CSS" tabindex="23" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'CSS3']);">CSS3</a></h4>
-				</div>
-			</section>
-			<section class="row">
-				<div class="twelve columns centered">
-					<ul>
-						<li><a href="https://www.google.com/chrome/" class="chrome footer-icon" rel="tag nofollow" title="Download Chrome" tabindex="24" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Chrome']);"></a></li>
-						<li><a href="http://www.mozilla.org/en-US/firefox/new" class="firefox footer-icon" rel="tag nofollow" title="Download Firefox" tabindex="25" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Firefox']);"></a></li>
-						<li><a href="http://www.apple.com/safari/" class="safari footer-icon" rel="tag nofollow" title="Download Safari" tabindex="26" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Safari']);"></a></li>
-						<li><a href="http://windows.microsoft.com/en-GB/internet-explorer/products/ie/home" class="ie footer-icon" rel="tag nofollow" title="Download IE" tabindex="27" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'IE']);"></a></li>
-						<li><a href="http://www.opera.com/" class="opera footer-icon" rel="nofollow" title="Download Opera" tabindex="28" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Opera']);"></a></li>
-					</ul>	
-				</div>
-			</section>
-		</footer>
-	</div>
-
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/modernizr.foundation.js"></script>
-	<script type="text/javascript" src="js/foundation.js"></script>
-	<script type="text/javascript" src="js/app-min.js"></script>
-	
-	<!-- Google+ Button -->
-	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-		{ "parsetags": "explicit" }
-	</script>
-    <script type="text/javascript">
-		function renderPlusone() {
-			gapi.plusone.render("g-plusone", {
-				"href": "http://iancrowther.co.uk/",
-				"size": "medium",
-				"align": "left",
-				"callback": "trackPlusone"
-			});
-		}
-		function trackPlusone(data) {
-			if(data.state=="on") {
-				_gaq.push(['_trackEvent', 'Heading', 'Click ' + data.state, 'g-plusone - ' + data.href]);
-			} else if(data.state=="off") {
-				_gaq.push(['_trackEvent', 'Heading', 'Click ' + data.state, 'g-plusone - ' + data.href]);
-			}
-		}
-	  renderPlusone();
-    </script>
-	
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-2845245-6']);
-		_gaq.push(['_setDomainName', 'iancrowther.co.uk']);
-		_gaq.push(['_trackPageview']);
-	  
-		(function() {
-		  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	
-	<!-- Google Translate -->
-	<!--[if !IE]> -->
-	<script type="text/javascript">
-		function googleTranslateElementInit() {
-		  new google.translate.TranslateElement({
-			pageLanguage: 'en',
-			gaTrack: true,
-			gaId: 'UA-2845245-6'
-		  });
-		}
-	</script>
-	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	<!-- <![endif]-->
-	
-	<!-- Google Chrome Frame -->
-	<!--[if lt IE 7]>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>;
-	<style>
-		.chromeFrameInstallDefaultStyle {
-			border: 5px solid black;
-			z-index: 999999999;
-			top: 350px;
-		}
-	</style>
-	<div id="prompt"> You should be using Google Chrome Frame </div>
-	<script>
-		// The conditional ensures that this code will only execute in IE,
-		// Therefore we can use the IE-specific attachEvent without worry
-		window.attachEvent("onload", function() {
-		CFInstall.check({
-			mode: "inline", // the default
-			node: "prompt" });
-		});
-	</script>
-	<![endif]-->
+		<!--#include virtual="/includes/footer.html" -->
+    </div>
+	<!--#include virtual="/includes/scripts.html" -->
 </body>
 </html>
