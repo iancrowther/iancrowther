@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://iancrowther.co.uk/</loc>
-  <lastmod>2012-02-19T15:14:32+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://iancrowther.co.uk/responsive-web-design/</loc>
-  <lastmod>2012-02-19T15:14:32+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://www.iancrowther.co.uk/</loc>
+  <lastmod>2009-09-18T10:51:29+00:00</lastmod>
 </url>
 </urlset>
